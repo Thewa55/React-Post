@@ -11,7 +11,6 @@ function Allpost(){
   return(
     <div>
       <h1>All Posts</h1>
-      {/* {console.log(posts)} */}
       {posts.posts.map(post => <Post key={post.id} post={post}/>)}
     </div>
   )
