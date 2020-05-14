@@ -5,8 +5,8 @@ import Postform from './components/Postform'
 function App() {
   return (
     <div className="App">
-      <Allpost />
       <Postform />
+      <Allpost />
     </div>
   );
 }
