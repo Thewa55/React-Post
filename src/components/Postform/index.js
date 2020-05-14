@@ -13,7 +13,8 @@ function Postform(){
     const data = {
       id: new Date(),
       postTitle,
-      postContent
+      postContent,
+      editing: false
     }
     dispatch({type: 'ADD_POST', data})
     title.current.value =""

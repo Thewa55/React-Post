@@ -9,7 +9,7 @@ function Post(props){
     <div>
       <h2>{props.post.postTitle}</h2>
       <p>{props.post.postContent}</p>
-      <button>Edit</button>
+      <button onClick = {() => dispatch({type: "EDIT_POST", id: props.post.id})}>Edit</button>
       <button onClick={() => dispatch({type: "DELETE_POST", id: props.post.id})}>Delete</button>
     </div>
   )
