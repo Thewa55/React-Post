@@ -9,7 +9,6 @@ const postReducer =(state = [], action) =>{
     case 'UPDATE_POST':
       return state.map(post => {
         if(post.id === action.id){
-          console.log(action.data)
           return {
             ...post,
             postTitle: action.data.newTitle,
