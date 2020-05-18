@@ -11,7 +11,7 @@ A app that performs CRUD with Redux.
 [#License](#License)<br>
 [#Contacts](#Contacts)
 ## #Installation
-npm i to install react-redux and redux
+In terminal npm i to install react-redux and redux. After installation type in npm start to run.
 ## #Usage
 It is a simple CRUD app that utilizes Redux 7.1 with hooks! 
 ## #Credits
